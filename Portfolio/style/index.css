@@ -1,0 +1,30 @@
+.container{
+    padding: 0;
+    margin: 30px 120px 60px 100px;
+    gap: 15px;
+    display: grid; 
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.712);
+    text-align: center;
+}
+
+.main{
+    padding: 10px;
+    grid-column: 1/4;
+    font-size: 20px;
+    font-weight: 800px; 
+}
+
+.lastProject{
+    padding: 90px;
+    grid-column: 1/4;
+    
+}
+
+.someProjects{
+    padding: 90px;
+}
